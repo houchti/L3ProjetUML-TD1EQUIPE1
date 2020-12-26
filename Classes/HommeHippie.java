@@ -1,18 +1,16 @@
-public class HommePresse extends Personnage
+public class HommeHippie extends Personnage
 {
     private boolean mort;
 
-    public HommePresse(String nom)
+    public HommeHippie(String nom)
     {
         super(nom);
         mort = false;
     }
 
     public void mort()
-    {
-        this.mort=true;
+    {     this.mort=true;
         System.out.println("Vous etes mort");
-
 
     }
 
@@ -33,9 +31,9 @@ public class HommePresse extends Personnage
 
     public Personnage()
     {
-        vie = 100;
-        hyd = 75;
-        sat = 75;
-        mor = 50;
+        vie = 75;
+        hyd = 50;
+        sat = 50
+        mor = 100;
     }
 }
